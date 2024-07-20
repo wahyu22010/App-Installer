@@ -4,7 +4,7 @@
 
 # Default values to edit
 #Enter URL to appimage
-url="https://downloads.1password.com/linux/tar/stable/aarch64/1password-latest.tar.gz"
+#url="https://downloads.1password.com/linux/tar/stable/aarch64/1password-latest.tar.gz"
 #Enter name of app
 appname="1password"
 #Enter path to icon or system icon name

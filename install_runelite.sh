@@ -1,6 +1,6 @@
 #!/bin/bash
 
-varname=$(basename $HOME/../usr/var/lib/proot-distro/installed-rootfs/debian/home/*)
+#varname=$(basename $HOME/../usr/var/lib/proot-distro/installed-rootfs/debian/home/*)
 
 #Install Obsidian
 

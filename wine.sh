@@ -37,8 +37,8 @@ export DISPLAY=:1
 box64 '"$HOME/wine64/bin/wine64 "'"$@"' > /usr/local/bin/wine64
 chmod +x /usr/local/bin/wine64
 
-WINEPREFIX=~/.wine32 box86 wine winecfg
-WINEPREFIX=~/.wine64 box64 wine64 winecfg
+#WINEPREFIX=~/.wine32 box86 wine winecfg
+#WINEPREFIX=~/.wine64 box64 wine64 winecfg
 
 
 

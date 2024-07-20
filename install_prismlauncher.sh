@@ -1,5 +1,5 @@
 #!/bin/bash
-varname=$(basename $HOME/../usr/var/lib/proot-distro/installed-rootfs/debian/home/*)
+#varname=$(basename $HOME/../usr/var/lib/proot-distro/installed-rootfs/debian/home/*)
 
 proot-distro login debian --user $varname --shared-tmp -- env DISPLAY=:1.0 sudo apt install mesa-utils libopenal1 openjdk-17-jre -y
 proot-distro login debian --user $varname --shared-tmp -- env DISPLAY=:1.0 wget https://github.com/Pi-Apps-Coders/files/releases/download/large-files/prismlauncher_7.2-1_arm64.deb

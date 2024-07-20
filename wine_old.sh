@@ -60,7 +60,7 @@ wine wineboot
 
 wine64 wineboot
 
-wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+#wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
 
 chmod +x winetricks
 
